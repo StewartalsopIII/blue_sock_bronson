@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+    padding: 50px;
+    background: #FFF; /* Adjust the background color as needed */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* This is a clean, modern font */
+  }
+  
+  .header {
+    margin-bottom: 50px;
+  }
+  
+  .header h1 {
+    color: #333;
+    font-size: 2.5rem; /* This is a large, readable size */
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    color: #666;
+    font-size: 1rem; /* Standard font size for paragraphs */
+    line-height: 1.6;
+    max-width: 600px; /* Ensures lines of text are not too long */
+    margin-left: auto; /* Centers the text block */
+    margin-right: auto;
+  }
+  
+  .photoCollage {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .collageImage {
+    max-width: 100%; /* Ensures the image is responsive and fits the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    border-radius: 8px; /* Softens the corners of the image for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+  }
+  
