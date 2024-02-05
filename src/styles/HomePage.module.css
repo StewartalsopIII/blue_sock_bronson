@@ -4,26 +4,41 @@
     align-items: center;
     justify-content: center;
     height: 100vh; /* Use full viewport height */
+    width: 100vw; /* Add full viewport width */
     color: #333;
     background-color: #f0f0f0; /* Light grey background for contrast */
     font-family: 'Arial', sans-serif;
-  }
-  
-  .title {
+    padding: 0; /* Reset any default padding */
+    margin: 0; /* Reset any default margin */
+}
+
+.title {
     font-size: 3rem; /* Large, readable text */
     margin-bottom: 0.5rem;
-  }
-  
-  .description {
+    width: 100%; /* Ensure the title takes full width */
+    text-align: center; /* Center the title text */
+}
+
+.description {
     font-size: 1.25rem;
     margin-bottom: 2rem;
-    max-width: 600px; /* Maximum width for readability */
-    text-align: center;
-  }
-  
-  .navigation {
+    width: 100%; /* Ensure the description takes full width */
+    text-align: center; /* Center the description text */
+    padding: 0 20px; /* Add padding on the sides for readability */
+}
+
+.navigation {
     position: absolute;
     top: 20px;
     left: 20px;
+}
+  
+.homePageBackground {
+    background-image: url('../assets/backgroundHomePage.png'); /* Adjust the path as necessary */
+    background-size: cover; /* Cover the entire space of the element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Optional: Set to the height of the viewport */
+    width: 100%; /* Optional: Set to the full width */
   }
   
